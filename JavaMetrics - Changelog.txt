@@ -1,0 +1,37 @@
+JavaMetrics - Changelog
+-----------------------
+01/06/2016 1.0.0.0 Estable
+- Se agregarion mensajes de usuario para indicar que no se pudo parsear el archivo.
+- Ahora se limpia la GUI correctamente al seleccionar un archivo diferente.
+- Se coloco el texto de yuda en la ventana HelpWindow
+- Se coloco el texto correspondiente en la ventana AboutWindow.
+- Se perfecciono el conteo de operadores para evitar literales String, ahora es mucho mas preciso.
+
+01/06/2016 v9 Bruno:
+- Se agrego el detalle de las metricas de halstead.
+- Se corrigieron problemas de conteo en las metricas de halstead, en particular en los operandos.
+- Se agrego la ventana "Acerca de..."
+- Se mejoro la distribucion de los archivos del proyecto en diferentes packages segun su finalidad.
+
+27/05/2016 v8 Bruno:
+- Ahora se contabilizan las lineas en blanco y no se consideran en el porcentaje de codigo comentado.
+- Se agrego la ventana de ayuda
+
+20/05/2016 v7 Bruno:
+- Ahora se calcula el Fan-In y Fan-Out para el metodo seleccionado.
+
+19/05/2016 v6 Bruno:
+- Se agrego el calculo aproximado de las metricas de Halstead.
+
+18/05/2016 v5 Bruno:
+- Se corrigio la visualizacion del codigo del metodo seleccionado en el area de texto.
+
+17/05/2016 v4 Bruno:
+- Se qito un checkbox que se agrego por error en la interfaz principal en la v3.
+- Se corrigio el calculo de la complejidad ciclomatica para que tenga encuenta las subcondiciones en estructuras de decision.
+- Se alinearon a la derecha los labels de resultados.
+- Se agrego resaltado de sintaxis y se cambioaron colores en la ventana.
+
+15/05/2016 v3 Bruno:
+- Se agregaron scrollbars a las listas y al area de texto de la interfaz principal
+- Se agrgo el changelog al proyecto.
